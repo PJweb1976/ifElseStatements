@@ -1,26 +1,24 @@
 const age = 45;
-
-if (age > 18) {
-    document.write ("you are welcome");
-}
-if (age < 18) {
-    document.write ("Please stay outside");
-}
 const isFemale = true;
-    console.log(isFemale);
+const driverStatus = "bob";
 
-if (isFemale = true) {
-    document.write ("get your tickets free");
+if (age >= 18) {
+    console.log("you are welcome");
 }
 else {
-    document.write ("please pay in full");
+    console.log ("Please stay outside");
 }
-const driverStatus = bob;
-    console.log(bob);
 
-if (driverStatus = bob) {
-    document.write ("allowed to drive");
+if (isFemale) {
+    console.log ("get your tickets free");
 }
 else {
-    document.write ("must call cab");
+    console.log ("please pay in full");
+}
+
+if (driverStatus=="bob") {
+    console.log ("allowed to drive");
+} 
+else {
+    console.log ("must call cab");
 }
