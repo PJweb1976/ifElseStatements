@@ -1,24 +1,33 @@
-const age = 45;
-const isFemale = true;
-const driverStatus = "bob";
+const age = 45,
+isFemale = true, 
+driverStatus = "bob";
+
+/*const age = 45,
+isFemale = true, 
+driverStatus = "bob";
+*/
+
+
+let ageMsg = "Please stay outside",
+paymentMsg = "Please pay in full",
+transportMsg = "Must call cab"
 
 if (age >= 18) {
-    console.log("you are welcome");
+    ageMsg = "You are welcome";
 }
-else {
-    console.log ("Please stay outside");
-}
+    console.log (ageMsg);
+
 
 if (isFemale) {
-    console.log ("get your tickets free");
+    paymentMsg = "Get your tickets free";
 }
-else {
-    console.log ("please pay in full");
-}
+    console.log (paymentMsg);
 
-if (driverStatus=="bob") {
-    console.log ("allowed to drive");
-} 
-else {
-    console.log ("must call cab");
+
+if (driverStatus==="bob") {
+    transportMsg = "Allowed to drive";
 }
+    console.log (transportMsg);
+
+
+
