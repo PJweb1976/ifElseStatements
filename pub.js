@@ -1,4 +1,4 @@
-const age = 45,
+/*const age = 45,
 isFemale = true, 
 driverStatus = "bob",
 younAdult = "discount",
@@ -84,4 +84,31 @@ if (myAge < 18 || myAge > 30 || myAge === 25) {
     ageMsg = "you aint coming!";
 } 
 console.log (ageMsg);
+*/
+/*
+//person object
+// person object met 2 value-keys or 2 properties
+let person = {
+    name: 'Mosh',
+    age: 30
+};
+
+// dot notation - default
+person.name = 'John';
+
+// bracket notation - als het niet helemaal zeker is?
+person['name'] = 'Mary';
+
+console.log(person.name);
+//properties of person object
+*/
+/*
+//array
+// list of objects
+// [this is an empty array]
+// dinamic / can change
+// array is datastructure that we use to present a lis of items
+let selectedColors = ['red', 'blue']
+selectedColors [2] = 'green';
+console.log(selectedColors.length);
 */
